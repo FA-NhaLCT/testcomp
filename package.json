@@ -1,11 +1,15 @@
 {
-  "name": "dummylib",
+  "name": "dummylib30061997",
   "version": "0.1.0",
-  "private": true,
+  "main": "./dist/dummylib.common.js",
+  "author": "nhalct",
+
+  "license": "ISC",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-lib": "vue-cli-service build --target lib --name dummylib src/main.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -13,6 +17,10 @@
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FA-NhaLCT/testcomp.git"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
